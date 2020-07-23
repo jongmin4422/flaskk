@@ -19,7 +19,7 @@ titles = soup.select('div.board-text > a')
 links = soup.select('div.board-text > a')
 
 
-@app.route('/keyboard')
+@app.route('/keyboard', '/')
 def Keyboard():
     dataSend = {
     }
